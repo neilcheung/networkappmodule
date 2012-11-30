@@ -19,7 +19,7 @@
 		35D460251341151600B23F46 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D460241341151500B23F46 /* CFNetwork.framework */; };
 		35D460271341151E00B23F46 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D460261341151E00B23F46 /* SystemConfiguration.framework */; };
 		35D460291341152500B23F46 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D460281341152500B23F46 /* MobileCoreServices.framework */; };
-		35D4602B1341152D00B23F46 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D4602A1341152D00B23F46 /* libz.1.2.3.dylib */; };
+		FAC8181316689CED00498CDE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC8181216689CED00498CDE /* libz.dylib */; };
 		FAEA18C916689A1C007B754F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEA18C816689A1C007B754F /* MBProgressHUD.m */; };
 		FAEA18E016689A2E007B754F /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEA18CB16689A2E007B754F /* ASIAuthenticationDialog.m */; };
 		FAEA18E116689A2E007B754F /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEA18CE16689A2E007B754F /* ASIDataCompressor.m */; };
@@ -59,7 +59,7 @@
 		35D460241341151500B23F46 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		35D460261341151E00B23F46 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		35D460281341152500B23F46 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		35D4602A1341152D00B23F46 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		FAC8181216689CED00498CDE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		FAEA18C716689A1C007B754F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
 		FAEA18C816689A1C007B754F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
 		FAEA18CA16689A2E007B754F /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIAuthenticationDialog.h; path = ASIHTTPRequest/ASIAuthenticationDialog.h; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35D4602B1341152D00B23F46 /* libz.1.2.3.dylib in Frameworks */,
+				FAC8181316689CED00498CDE /* libz.dylib in Frameworks */,
 				35D460291341152500B23F46 /* MobileCoreServices.framework in Frameworks */,
 				35D460271341151E00B23F46 /* SystemConfiguration.framework in Frameworks */,
 				35D460251341151600B23F46 /* CFNetwork.framework in Frameworks */,
@@ -146,7 +146,7 @@
 		35D45FC21341120000B23F46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				35D4602A1341152D00B23F46 /* libz.1.2.3.dylib */,
+				FAC8181216689CED00498CDE /* libz.dylib */,
 				35D460281341152500B23F46 /* MobileCoreServices.framework */,
 				35D460261341151E00B23F46 /* SystemConfiguration.framework */,
 				35D460241341151500B23F46 /* CFNetwork.framework */,
